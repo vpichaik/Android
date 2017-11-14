@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cabtesting</string>
+    <string name="sign">Sign In</string>
+    <string name="username">EmailId or Username</string>
+    <string name="password">Password</string>
+    <string name="head">Go Home Safe</string>
+    <string name="title_activity_employeedetails">Employeedetails</string>
+    <string name="title_activity_emp_details">EmpDetails</string>
+    <string name="about">About</string>
+
+</resources>
