@@ -6,6 +6,11 @@
     <string name="head">Go Home Safe</string>
     <string name="title_activity_employeedetails">Employeedetails</string>
     <string name="title_activity_emp_details">EmpDetails</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
     <string name="about">About</string>
-
+    <string name="source">Source Address</string>
+    <string name="destination">Destination Address</string>
+    <string name="submit">submit</string>
+    <string name="time">time</string>
 </resources>
