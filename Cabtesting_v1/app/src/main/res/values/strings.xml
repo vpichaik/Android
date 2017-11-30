@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cabtesting</string>
+    <string name="sign">Sign In</string>
+    <string name="username">EmailId or Username</string>
+    <string name="password">Password</string>
+    <string name="head">Go Home Safe</string>
+    <string name="title_activity_employeedetails">Employeedetails</string>
+    <string name="title_activity_emp_details">EmpDetails</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="about">About</string>
+    <string name="source">Source Address</string>
+    <string name="destination">Destination Address</string>
+    <string name="submit">submit</string>
+    <string name="time">time</string>
+    <string name="title_activity_progressbar">Progressbar</string>
+    <string name="submitted_successfully">Submitted Successfully</string>
+    <string name="track_status">Track Status</string>
+</resources>
