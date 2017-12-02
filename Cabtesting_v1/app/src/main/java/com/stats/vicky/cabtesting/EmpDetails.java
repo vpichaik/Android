@@ -25,14 +25,14 @@ public class EmpDetails extends AppCompatActivity {
         setContentView(R.layout.activity_emp_details);
             Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Intent i = new Intent();
+        Intent i = getIntent();
         mDrawerLayout = findViewById(R.id.drawerlayout);
         mtoggle=new ActionBarDrawerToggle(this,mDrawerLayout,toolbar,R.string.open,R.string.close);
         mDrawerLayout.addDrawerListener(mtoggle);
         mtoggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View nav_header = LayoutInflater.from(this).inflate(R.layout.header_nav, null);
-        Bundle bundle = getIntent().getExtras();
+        Bundle bundle =i.getExtras();
         String stuff = bundle.getString("username");
         ((TextView) nav_header.findViewById(R.id.textView)).setText("Welcome : "+stuff);
         navigationView.addHeaderView(nav_header);
