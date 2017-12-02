@@ -1,19 +1,186 @@
 <resources>
     <string name="app_name">Cabtesting</string>
     <string name="sign">Sign In</string>
+    <string name="Login">Login</string>
     <string name="username">EmailId or Username</string>
     <string name="password">Password</string>
     <string name="head">Go Home Safe</string>
     <string name="title_activity_employeedetails">Employeedetails</string>
     <string name="title_activity_emp_details">EmpDetails</string>
     <string name="open">open</string>
+    <string name="Home">Home</string>
     <string name="close">close</string>
     <string name="about">About</string>
     <string name="source">Source Address</string>
     <string name="destination">Destination Address</string>
     <string name="submit">submit</string>
     <string name="time">time</string>
+    <string name="action_settings">action settings</string>
     <string name="title_activity_progressbar">Progressbar</string>
     <string name="submitted_successfully">Submitted Successfully</string>
     <string name="track_status">Track Status</string>
+    <string-array name="places_names">
+        <item>Adambakkam</item>
+        <item>Adyar</item>
+        <item>Alandur </item>
+        <item>Alapakkam</item>
+        <item>Alwarpet</item>
+        <item>Alwarthirunagar</item>
+        <item>Ambattur</item>
+        <item>Aminjikarai</item>
+        <item>Anna Nagar</item>
+        <item>Annanur</item>
+        <item>Arumbakkam</item>
+        <item>Ashok Nagar</item>
+        <item>Avadi</item>
+        <item>Ayanavaram</item>
+        <item>Besant Nagar</item>
+        <item>Basin Bridge</item>
+        <item>Chepauk</item>
+        <item>Chetput</item>
+        <item>Chintadripet</item>
+        <item>Chitlapakkam</item>
+        <item>Choolai</item>
+        <item>Choolaimedu</item>
+        <item>Chrompet</item>
+        <item>Egmore</item>
+        <item>Ekkaduthangal</item>
+        <item>Ennore</item>
+        <item>Foreshore Estate</item>
+        <item>Fort St. George</item>
+        <item>George Town</item>
+        <item>Gopalapuram</item>
+        <item>Government Estate</item>
+        <item>Guindy</item>
+        <item>IIT Madras</item>
+        <item>Injambakkam</item>
+        <item>ICF</item>
+        <item>Iyyapanthangal</item>
+        <item>Jafferkhanpet</item>
+        <item>Karapakkam</item>
+        <item>Kattivakkam</item>
+        <item>Kazhipattur</item>
+        <item>K.K. Nagar</item>
+        <item>Keelkattalai</item>
+        <item>Kelambakkam</item>
+        <item>Kilpauk</item>
+        <item>Kodambakkam</item>
+        <item>Kodungaiyur</item>
+        <item>Kolathur</item>
+        <item>Korattur</item>
+        <item>Korukkupet</item>
+        <item>Kottivakkam</item>
+        <item>Kotturpuram</item>
+        <item>Kottur</item>
+        <item>Kovalam</item>
+        <item>Kovilambakkam</item>
+        <item>Koyambedu</item>
+        <item>Kundrathur</item>
+        <item>Madhavaram</item>
+        <item>Madhavaram Milk Colony</item>
+        <item>Madipakkam</item>
+        <item>Madambakkam</item>
+        <item>Maduravoyal</item>
+        <item>Manali</item>
+        <item>Manali New Town</item>
+        <item>Manapakkam</item>
+        <item>Mandaveli</item>
+        <item>Mangadu</item>
+        <item>Mannady</item>
+        <item>Mathur</item>
+        <item>Medavakkam</item>
+        <item>Meenambakkam</item>
+        <item>MGR Nagar</item>
+        <item>Minjur</item>
+        <item>Mogappair</item>
+        <item>MKB Nagar</item>
+        <item>Mount Road</item>
+        <item>Moolakadai</item>
+        <item>Moulivakkam</item>
+        <item>Mugalivakkam</item>
+        <item>Mudichur</item>
+        <item>Mylapore</item>
+        <item>Nandanam</item>
+        <item>Nanganallur</item>
+        <item>Navalur</item>
+        <item>Neelankarai</item>
+        <item>Nemilichery</item>
+        <item>Nesapakkam</item>
+        <item>Nolambur</item>
+        <item>Noombal</item>
+        <item>Nungambakkam</item>
+        <item>Otteri</item>
+        <item>Padi</item>
+        <item>Pakkam</item>
+        <item>Palavakkam</item>
+        <item>Pallavaram</item>
+        <item>Pallikaranai</item>
+        <item>Pammal</item>
+        <item>Park Town</item>
+        <item>Parry's Corner</item>
+        <item>Pattabiram</item>
+        <item>Pattaravakkam</item>
+        <item>Pazhavanthangal</item>
+        <item>Peerkankaranai</item>
+        <item>Perambur</item>
+        <item>Peravallur</item>
+        <item>Perumbakkam</item>
+        <item>Perungalathur</item>
+        <item>Perungudi</item>
+        <item>Pozhichalur</item>
+        <item>Poonamallee</item>
+        <item>Porur</item>
+        <item>Pudupet</item>
+        <item>Purasaiwalkam</item>
+        <item>Puthagaram</item>
+        <item>Puzhal</item>
+        <item>Puzhuthivakkam</item>
+        <item>Raj Bhavan</item>
+        <item>Ramavaram</item>
+        <item>Red Hills</item>
+        <item>Royapettah</item>
+        <item>Royapuram</item>
+        <item>Saidapet</item>
+        <item>Saligramam</item>
+        <item>Santhome</item>
+        <item>Sembakkam</item>
+        <item>Selaiyur</item>
+        <item>Shenoy Nagar</item>
+        <item>Sholavaram</item>
+        <item>Sholinganallur</item>
+        <item>Sithalapakkam</item>
+        <item>Sowcarpet</item>
+        <item>St.Thomas Mount</item>
+        <item>Tambaram</item>
+        <item>Teynampet</item>
+        <item>Tharamani</item>
+        <item>T. Nagar</item>
+        <item>Thirumangalam</item>
+        <item>Thirumullaivoyal</item>
+        <item>Thiruneermalai</item>
+        <item>Thiruninravur</item>
+        <item>Thiruvanmiyur</item>
+        <item>Tiruverkadu</item>
+        <item>Thiruvotriyur</item>
+        <item>Tirusulam</item>
+        <item>Tiruvallikeni</item>
+        <item>Tiruvallur</item>
+        <item>West Mambalam</item>
+        <item>Tondiarpet</item>
+        <item>United India Colony</item>
+        <item>Vandalur</item>
+        <item>Vadapalani</item>
+        <item>Valasaravakkam</item>
+        <item>Vallalar Nagar</item>
+        <item>Vanagaram</item>
+        <item>Velachery</item>
+        <item>Villivakkam</item>
+        <item>Virugambakkam</item>
+        <item>Vyasarpadi</item>
+        <item>Washermanpet</item>
+
+
+    </string-array>
+    
+    
 </resources>

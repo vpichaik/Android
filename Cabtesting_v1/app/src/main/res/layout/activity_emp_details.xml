@@ -21,19 +21,45 @@
 <include android:layout_width="match_parent"
     android:layout_height="wrap_content"
     layout="@layout/appbar"/>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
 
         <AutoCompleteTextView
             android:id="@+id/source"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/source" />
 
-        <AutoCompleteTextView
-            android:id="@+id/destination"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/destination" />
+      <ImageView
+          android:id="@+id/img1"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:background="@drawable/ic_arrow_drop_down_black_24dp"
+          />
 
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/destination" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                />
+
+        </LinearLayout>
         <TimePicker
             android:id="@+id/time"
             android:layout_width="match_parent"

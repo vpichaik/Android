@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="@string/about"
-        android:id="@+id/about">
+<group android:checkableBehavior="single">
 
-    </item>
     <item android:title="Tracking Status"
-        android:id="@+id/trcksts">
+        android:id="@+id/track_status"
+        android:icon="@drawable/ic_navigation_black_24dp"
+        >
 
     </item>
-
+</group>
 </menu>
