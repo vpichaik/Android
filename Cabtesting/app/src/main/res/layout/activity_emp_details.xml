@@ -6,53 +6,83 @@
     android:layout_height="match_parent"
     tools:context="com.stats.vicky.cabtesting.EmpDetails"
     android:id="@+id/drawerlayout"
-    >
 
-
+>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-           />
+
+<include android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    layout="@layout/appbar"/>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
 
         <AutoCompleteTextView
             android:id="@+id/source"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/source" />
+            android:hint="@string/source" />
 
-        <AutoCompleteTextView
-            android:id="@+id/destination"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/destination" />
+      <ImageView
+          android:id="@+id/img1"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:background="@drawable/ic_arrow_drop_down_black_24dp"
+          />
 
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/destination" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                />
+
+        </LinearLayout>
         <TimePicker
             android:id="@+id/time"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:headerBackground="@android:color/black"
+            android:numbersSelectorColor="@color/colorOrange" />
 
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="submit"
             android:text="@string/submit" />
 
-    </LinearLayout>
-        <android.support.design.widget.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:background="@color/colorGreen"
-            android:fitsSystemWindows="true"
 
-            app:menu="@menu/item_name" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+<include
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    layout="@layout/navigation"
+    android:layout_gravity="start"
+    />
 
 
 
